@@ -46,4 +46,15 @@ describe('index', function () {
         expect(content.contents.trim()).toBe('abc==~~ma`r`k~~==')
       })
   })
+
+  // @todo support block
+  // test('block test', function () {
+  //   remark()
+  //     .use(html)
+  //     .use(mark)
+  //     .process('abc ==\nmxark\n==', function (err, content) {
+  //       // console.log(err)
+  //       expect(content.contents.trim()).toBe('<p>abc <mark>mxark</mark></p>')
+  //     })
+  // })
 })
